@@ -1,0 +1,97 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+div{
+  
+    width:80%;
+    margin:5px;
+    padding:3px;
+    
+   
+}
+h1{
+    
+    color:rgb(123, 255, 132);
+    background-color:pink;
+    text-align: center;
+    text-decoration: double underline;
+    font-size: 80px;
+    border-radius: 10px;
+    background-image: url(bgpic.jpg);
+    background-size: cover;
+}
+h2:hover{
+    color:red;
+    background-image: url(bgpic.jpg);
+    font-size: 40px;
+    transition: 1s;
+}
+#image{
+    position: absolute;
+    top:200px;
+    height:2100px;
+    width:300px;
+
+}
+.image{
+    width:300px;
+    height:400px
+}
+
+
+img
+{
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px gray;
+}
+img:hover{
+    box-shadow: 8px 8px 15px red;
+    border-radius: 0%;
+    transition: 1.5s;
+    height:320px;
+    width:315px
+}
+h2{
+    color:#2E8BC0;
+    background-color: bisque;
+    font-size: 35px;
+    border-radius: 10px;
+}
+.aboutme{
+   
+    width: max-content;
+    margin:12px;
+    padding:2px 8px 2px 8px;
+    font-size:25px;
+}
+#main{
+    position: absolute;
+    top: 200px;
+    left:350px;
+
+}
+.project{
+    font-size:25px
+}
+li:hover{
+    color:#75E6DA;
+    font-size: 26px;
+    font-weight: 600;
+    transition: 1s;
+}
+button{
+    font-size: 30px;
+}
+input{
+    font-size: 25px;
+}
+#fixed{
+    height: 25px;
+    font-weight: 700;
+    width:120px;
+    position:fixed;
+    top:150px;
+    left:1400px;
+    background-color: red;
+}
