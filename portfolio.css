@@ -3,11 +3,26 @@
     font-family: 'Roboto', sans-serif;
  
 }
-#bgmain{
+h1{
+  
+    color:rgb(123, 255, 132);
+    background-color:pink;
+    text-align: center;
+    text-decoration: double underline;
+    font-size: 80px;
+    border-radius: 10px;
+    background-image: url(./pictures/bgpic.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+#bg{
+    position: fixed;
     background-image: url(./pictures/bg2.jpg);
-  height:3000px;
-  width: 100%;
+  height:100vh;
+  width:100%;
     background-size:cover;
+    display: inline;
+    z-index: 0;
 }
 div{
   
@@ -17,17 +32,7 @@ div{
     
    
 }
-h1{
-    
-    color:rgb(123, 255, 132);
-    background-color:pink;
-    text-align: center;
-    text-decoration: double underline;
-    font-size: 80px;
-    border-radius: 10px;
-    background-image: url(./pictures/bgpic.jpg);
-    background-size: cover;
-}
+
 h2:hover{
     color:red;
     background-image: url(./pictures/bgpic.jpg);
