@@ -111,7 +111,7 @@ input{
         font-size: 55px;
         width:400px;
         border-radius: 10px;
-        background-image: url(bgpic.jpg);
+        background-image: url(./pictures/bgpic.jpg);
         background-size: cover;
     }
     #image{
