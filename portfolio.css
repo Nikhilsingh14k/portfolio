@@ -1,6 +1,13 @@
 
 *{
     font-family: 'Roboto', sans-serif;
+ 
+}
+#bgmain{
+    background-image: url(./pictures/bg2.jpg);
+  height:3000px;
+  width: 100%;
+    background-size:cover;
 }
 div{
   
@@ -18,12 +25,12 @@ h1{
     text-decoration: double underline;
     font-size: 80px;
     border-radius: 10px;
-    background-image: url(bgpic.jpg);
+    background-image: url(./pictures/bgpic.jpg);
     background-size: cover;
 }
 h2:hover{
     color:red;
-    background-image: url(bgpic.jpg);
+    background-image: url(./pictures/bgpic.jpg);
     font-size: 40px;
     transition: 1s;
 }
