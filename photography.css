@@ -4,7 +4,7 @@
     font-family: 'Roboto', sans-serif;
 }
 #main{
-    background-image: url(photography.jpeg);
+    background-image: url(photography.jpg);
     height:100vh;
     background-size: cover;
 }
