@@ -18,7 +18,7 @@ h1{
 #bg{
     position: fixed;
     background-image: url(./pictures/bg2.jpg);
-  height:100vh;
+  height:100%;
   width:100%;
     background-size:cover;
     display: inline;
@@ -192,7 +192,16 @@ input{
     #fixed{
       font-size: 0%;
     }
-
+    #bg{
+        position: fixed;
+        background-image: url(./pictures/bg2.jpg);
+      height:2100px;
+      width:100%;
+        background-size:cover;
+        display: inline;
+        z-index: 0;
+    }
+    
 
 
 
