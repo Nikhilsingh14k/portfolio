@@ -291,6 +291,12 @@ input [type="submit"]{
         box-shadow: 3px 3px 10px red;
       
 }
+h2:hover{
+    color:red;
+    background-image: url(./pictures/bgpic.jpg);
+    font-size: 20px;
+    transition: 1s;
+}
 
   
     
